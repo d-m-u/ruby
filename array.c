@@ -3301,7 +3301,7 @@ rb_ary_reject(VALUE ary)
  *  If no block is given, an Enumerator is returned instead.
  *
  *     scores = [ 97, 42, 75 ]
- *     scores.delete_if {|score| score < 80 }   #=> [97]
+ *     scores.delete_if { |score| score < 80 }   #=> [97]
  */
 
 static VALUE
